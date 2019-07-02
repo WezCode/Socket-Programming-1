@@ -4,7 +4,7 @@ HEADERSIZE = 10
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 # Usually its on remote machines so cant just use get host name like this
-s.connect((socket.gethostname(), 1234))
+s.connect((socket.gethostname(), 1235))
 
 # Receives a stream of data, how big is a chunk of data that you receive
 
